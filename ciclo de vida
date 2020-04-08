@@ -1,0 +1,17 @@
+untracked 
+-git nao conhece ainda
+
+
+unmodified
+-esta no git mas nao foi modificado
+
+
+
+modified 
+-foi modificado 
+ 
+ 
+staged
+-arquivo está pronto para ser comitado
+
+após commit voltara para unmodified!!
