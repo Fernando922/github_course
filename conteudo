@@ -95,3 +95,18 @@ c0 c1  c2  c4   c3'
 pro: evita commit extra
 pro: historico linear
 contra: perde ordem cronologica (quem veio antes? depois?)
+
+
+//gitignore
+
+*.json  //todos do tipo json
+db.xls  //nome específico do arquivo
+pasta/ola.txt  //nome com o caminho da pasta
+
+
+//git stash
+aquivo que guarda modificações que nao foram comitadas
+
+
+git stash //salva as alterações nao comitadas
+git stash apply pega elas de volta
