@@ -54,3 +54,44 @@ sua chave privada abre a chave publica no github
 
 
 git push origin master (para origin de master)
+
+
+//ao fazer o clone vc pode mudar o nome do repositorio clonado
+
+git clone nomedorepo.git seunovonome
+
+
+
+//branch
+
+ponteiro movel que aponta para um commit
+
+//criar
+git checkout -b nomebranch  
+
+//deleta
+git branch -D nomebranch
+
+
+// troca a branch
+git checkout nomebranch   
+
+
+
+//merge e rebase
+
+
+c0 - c1 - c2 ---c4 ------ c6
+          c3 ---c5 --------^
+
+//merge nao distroi historico
+//contra: cria um commit novo só pra isso
+//contra: polui historico
+
+
+       c3 <- é jogado pra frente de c4   (fast foward)
+c0 c1  c2  c4   c3'
+
+pro: evita commit extra
+pro: historico linear
+contra: perde ordem cronologica (quem veio antes? depois?)
