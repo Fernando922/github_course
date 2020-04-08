@@ -126,6 +126,3 @@ git push origin master --tags
 
 //salvando a sexta mas mantendo commit
 git revert hashdocommit 
-
-
-codigo muito loko que gerou bug em prod, mas ta quase bom
