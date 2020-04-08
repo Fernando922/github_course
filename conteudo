@@ -125,4 +125,10 @@ git push origin master --tags
 
 
 //salvando a sexta mas mantendo commit
-git revert hashdocommit 
+git revert hashdocommit
+
+
+//apagando branch remota
+
+git push origin: nomedabranch
+git push origin: 1.0.0
