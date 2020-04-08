@@ -33,3 +33,24 @@ git diff --name-only (mostra os arquivos alterados, ANTES DE COMITAR)
 
 
 git checkout nomedoarquivo (desfaz antes de passaar para staged)
+git reset HEAD nomedoarquivo(tira da area de staged e passa para modified)
+
+
+git reset --soft  (volta o comit, mas deixa em staged)
+git reset --mixed (vola para o estado modified)
+git reset --hard hasdocommitanterior (desfaz tudo)
+
+git reset altera o historico do commit cuidado
+
+
+
+
+//chave ssh
+
+sua chave privada abre a chave publica no github
+
+
+//git push
+
+
+git push origin master (para origin de master)
