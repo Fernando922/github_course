@@ -30,3 +30,6 @@ git diff --name-only (mostra os arquivos alterados, ANTES DE COMITAR)
 
 
 //DESFAZENDO COISAS
+
+
+git checkout nomedoarquivo (desfaz antes de passaar para staged)
