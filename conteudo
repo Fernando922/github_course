@@ -118,7 +118,7 @@ git stash clear //limpa a lista
 //alias
 git config --global alias.s status  //atribuiu um alias que chama o status
 
-//tags
+//tags  cria uma versao no github (uma release)
 
 git tag -a 1.0.0 -m "Readme finalizado"
 git push origin master --tags
