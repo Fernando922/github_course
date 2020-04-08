@@ -122,3 +122,7 @@ git config --global alias.s status  //atribuiu um alias que chama o status
 
 git tag -a 1.0.0 -m "Readme finalizado"
 git push origin master --tags
+
+
+//salvando a sexta mas mantendo commit
+git revert hashdocommit 
