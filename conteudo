@@ -1,0 +1,24 @@
+untracked 
+-git nao conhece ainda
+
+
+unmodified
+-esta no git mas nao foi modificado
+
+
+
+modified 
+-foi modificado 
+ 
+ 
+staged
+-arquivo está pronto para ser comitado
+
+após commit voltara para unmodified!!
+
+
+//log por autor
+git log --author="F"
+
+
+//git show 907b3bb8df327cf424316f1ab98d92bb233ede01 (mostra tudo desse commit especifico)git 
