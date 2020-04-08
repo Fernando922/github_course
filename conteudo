@@ -21,4 +21,12 @@ após commit voltara para unmodified!!
 git log --author="F"
 
 
-//git show 907b3bb8df327cf424316f1ab98d92bb233ede01 (mostra tudo desse commit especifico)git 
+//git show 907b3bb8df327cf424316f1ab98d92bb233ede01 (mostra tudo desse commit especifico)
+
+
+git diff (mostra as alterações ANTES DE COMITAR)
+git diff --name-only (mostra os arquivos alterados, ANTES DE COMITAR)
+
+
+
+//DESFAZENDO COISAS
