@@ -110,3 +110,15 @@ aquivo que guarda modificações que nao foram comitadas
 
 git stash //salva as alterações nao comitadas
 git stash apply pega elas de volta
+git stash list //lista todas
+git stash clear //limpa a lista
+
+
+
+//alias
+git config --global alias.s status  //atribuiu um alias que chama o status
+
+//tags
+
+git tag -a 1.0.0 -m "Readme finalizado"
+git push origin master --tags
